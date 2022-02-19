@@ -17,4 +17,10 @@ entry1.focus()
 entry2 = Entry(root)
 entry2.place(relheight=0.07, relwidth=0.2, relx=0.7, rely=0.2)
 
+button1 = Button(root, text="Добавить запись")
+button1.place(relheight=0.07, relwidth=0.2, relx=0.45, rely=0.3)
+
+button2 = Button(root, text="Посмотреть историю записей")
+button2.place(relheight=0.07, relwidth=0.25, relx=0.43, rely= 0.4)
+
 root.mainloop()
